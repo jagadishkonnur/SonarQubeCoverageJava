@@ -2,7 +2,7 @@ name: Code build and review
 on: push
 jobs:
   buildjob:
-    runs-on: ununtu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Clone the current repository
       uses: actions/checkout@v4
